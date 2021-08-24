@@ -1,0 +1,9 @@
+.footer{
+    background-color: getColor(light-brown);    
+    
+    .footer__item{
+        margin: 10px 20px;
+        color: getColor(gray-text);
+    }
+
+}

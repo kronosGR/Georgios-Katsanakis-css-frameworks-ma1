@@ -1,10 +1,12 @@
 {
     "version": 3,
-    "mappings": "ACUA,iCAAiC;ACVjC,AAAA,OAAO,CAAA;EACH,gBAAgB,EDMH,OAAO;CCLvB",
+    "mappings": "ACYA,iCAAiC;ACZjC,AAAA,IAAI,CAAA;EACA,gBAAgB,EDOV,OAAO;ECNb,WAAW,EDDH,YAAY,EAAE,UAAU;CCEnC;;AAED,AAAA,MAAM,CAAA;EACF,gBAAgB,EDCH,OAAO;CCAvB;;AAED,AAAA,IAAI,CAAA;EACA,KAAK,EAAC,GAAG;EACT,MAAM,EAAE,SAAS;EACjB,UAAU,EAAE,MAAM;CACrB;;AAED,AAAA,EAAE,CAAA;EACC,SAAS,EAAE,MAAM;CACnB;;AAED,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,GAAG;EACV,OAAO,EAAE,IAAI;CAChB;;ACtBD,AAAA,OAAO,CAAA;EACH,gBAAgB,EFMH,OAAO;CELvB;;ACFD,AAAA,OAAO,CAAA;EACH,gBAAgB,EHMH,OAAO;CGCvB;;AARD,AAGI,OAHG,CAGH,aAAa,CAAA;EACT,MAAM,EAAE,SAAS;EACjB,KAAK,EHIE,OAAO;CGHjB",
     "sources": [
         "../scss/style.scss",
         "../scss/partials/_variables.scss",
-        "../scss/partials/_nav.scss"
+        "../scss/partials/_page.scss",
+        "../scss/partials/_nav.scss",
+        "../scss/partials/_footer.scss"
     ],
     "names": [],
     "file": "style.css"

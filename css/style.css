@@ -1,5 +1,40 @@
 /* Gets the color from the map */
+body {
+  background-color: #e5e5e5;
+  font-family: "opens sans", sans-serif;
+}
+
+header {
+  background-color: #f4f3ee;
+}
+
+main {
+  width: 85%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+.container {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .navbar {
   background-color: #f4f3ee;
+}
+
+.footer {
+  background-color: #f4f3ee;
+}
+
+.footer .footer__item {
+  margin: 10px 20px;
+  color: #8d8d8d;
 }
 /*# sourceMappingURL=style.css.map */

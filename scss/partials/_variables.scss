@@ -1,11 +1,13 @@
-$mobile-width: 415px;
-$font: "opens sans", sans-serif;
+$mobile-width: 540px;
+$text-font: "opens sans", sans-serif;
 
 $colors: (
     pink: #c32c72,
     black: #262626,
     white: #FFF,
-    light-brown: #f4f3ee
+    light-brown: #f4f3ee,
+    gray: #e5e5e5,
+    gray-text: #8d8d8d
 );
 
 /* Gets the color from the map */
