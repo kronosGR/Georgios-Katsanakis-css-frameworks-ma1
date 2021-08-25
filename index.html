@@ -13,35 +13,37 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">MA1</a>
-            <button class="navbar-toggler ml" type="button" data-toggle="collapse" data-target="#navBarMenu" aria-expanded="false" aria-controls="navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navBarMenu">
-                <ul class="nav navbar-nav navbar-right ml-auto">
-                    <li class="nav-item"> 
-                        <a href="index.html" class="nav-link nav-active">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-sm-around">
+            <div class="container"> 
+                <a class="navbar-brand" href="#">MA1</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarMenu" aria-controls="navBarMenu" aria-expanded="false" >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navBarMenu">
+                    <ul class="navbar-nav sm-auto">
+                        <li class="nav-item"> 
+                            <a href="index.html" class="nav-link nav-active" >Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
     <main>
         <h1>Page heading</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-md"></div>
-                <div class="col-md"></div>
-                <div class="col-md"></div>
-                <div class="col-md"></div>
-                <div class="col-md"></div>
-                <div class="col-md"></div>
-            </div>
-
+        
+        <div class="row d-flex">
+            <div class="col row__item"></div>
+            <div class="col row__item"></div>
+            <div class="col row__item row__item--white-red"></div>
+            <div class="col row__item"></div>
+            <div class="col row__item"></div>
+            <div class="col row__item row__item--red"></div>
+            <div class="col row__item"></div>
+            <div class="col row__item row__item--white-red"></div>
         </div>
     </main>
     <footer class="row footer">

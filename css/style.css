@@ -25,6 +25,32 @@ h1 {
   display: flex;
 }
 
+.row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 250px;
+          flex: 0 0 250px;
+  margin: 15px;
+  height: 250px;
+  border-radius: 15px;
+  background-color: #f4f3ee;
+}
+
+.row__item--red {
+  border: 2px solid #FFF;
+  background-color: #c32c72;
+}
+
+.row__item--white-red {
+  border: 2px solid #c32c72;
+  background-color: #FFF;
+}
+
 .navbar {
   background-color: #f4f3ee;
 }

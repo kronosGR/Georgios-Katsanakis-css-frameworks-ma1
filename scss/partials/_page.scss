@@ -22,3 +22,23 @@ h1{
     display: flex;
 }
 
+.row{
+    justify-content: center;
+    &__item {
+        flex: 0 0 250px;
+        margin: 15px;
+        height: 250px;
+        border-radius: 15px;
+        background-color: getColor(light-brown);
+
+        &--red{
+            border: 2px solid getColor(white);
+            background-color: getColor(mypink);
+        }
+
+        &--white-red{
+            border: 2px solid getColor(mypink);
+            background-color: getColor(white);
+        }
+    }
+}
