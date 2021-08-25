@@ -51,6 +51,10 @@ h1 {
   background-color: #FFF;
 }
 
+.active {
+  color: #c32c72 !important;
+}
+
 .navbar {
   background-color: #f4f3ee;
 }
